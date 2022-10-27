@@ -1,0 +1,26 @@
+.login {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.68);
+    height: 100vh;
+    width: 100%;
+    z-index: 999;
+}
+
+.login__container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.login__header > img {
+    object-fit: contain;
+    height: 80px;
+}
+
+#sidebar__tweet--gray {
+    background-color: gray !important;
+}
