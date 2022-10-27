@@ -4,14 +4,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import {
   TwitterTimelineEmbed,
   TwitterShareButton,
-  TwitterFollowButton,
-  TwitterHashtagButton,
-  TwitterMentionButton,
   TwitterTweetEmbed,
-  TwitterMomentShare,
-  TwitterDMButton,
-  TwitterVideoEmbed,
-  TwitterOnAirButton,
 } from "react-twitter-embed";
 
 function Widgets() {
