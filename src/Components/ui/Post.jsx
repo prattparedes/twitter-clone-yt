@@ -17,29 +17,28 @@ function Post({ displayName, username, verified, text, image, avatar }) {
         <div className="post__header">
           <div className="post__headerText">
             <h3>
-              Rafeh Qazi <span></span>
-              <VerifiedUserIcon className="post__badge" />
+              Rafeh Qazi{" "}
+              <span className="post__headerSpecial">
+                <VerifiedUserIcon className="post__badge" /> @cleverqazi
+              </span>
             </h3>
           </div>
-          <div className="header__description">
+          <div className="post__headerDescription">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-              ex, fuga fugit vero error quidem aspernatur voluptatem. Sapiente
-              ipsam reiciendis laborum quas at aperiam iure assumenda.
-              Temporibus praesentium eius recusandae!
+              Lorem ipsum dolor sit amet consectetur adipisicing
             </p>
           </div>
-          <img
+        </div>
+        <img
             src="https://media3.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=ecf05e47nwgfvuy670e0ztvewofv7yr6pmao3e6z6w7lj2if&rid=giphy.gif&ct=g"
             alt=""
           />
-          <div className="post__footer">
+        <div className="post__footer">
             <ChatBubbleOutlineIcon fontSize="small" />
             <RepeatIcon fontSize="small" />
             <FavoriteBorderIcon fontSize="small" />
             <PublishIcon fontSize="small" />
           </div>
-        </div>
       </div>
     </div>
   );
