@@ -2,6 +2,7 @@
     padding-bottom: 10px;
     border-bottom: 8px solid var(--twitter-background);
     padding-right: 10px;
+    position: relative;
 }
 
 .tweetBox > form {
@@ -24,7 +25,6 @@
 .tweetBox__inputImage {
     border: none;
     padding: 10px;
-
 }
 
 .tweetBox__tweetButton {
@@ -38,4 +38,16 @@
     height: 40px !important;
     margin-top: 20px !important;
     margin-left: auto !important;
+}
+
+.tweetbBox__attachIcon {
+    position: absolute;
+    right: 10px;
+    top: 85px;
+    color: var(--twitter-color);
+    cursor: pointer;
+}
+
+.tweetBox__imageUpload > input {
+    display: none;
 }

@@ -1,0 +1,42 @@
+.profileBox {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 999px;
+    padding: 12px;
+    height: 40px;
+    transition: background-color 300ms ease;
+    cursor: pointer;
+    transform: translateX(20px);
+}
+
+.profileBox:hover {
+    background-color: lightgray;
+}
+
+.profileBox:active {
+    background-color: gray;
+}
+
+.profileBox__Avatar {
+    margin-left: 10px;
+}
+
+.profileBox__name,
+.profileBox__email {
+    margin-left: 10px;
+}
+
+.profileBox__name {
+    font-weight: 600;
+}
+
+.profileBox__email {
+    white-space: no-wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 150px;
+    font-size: 12px;
+    color: gray;
+}
